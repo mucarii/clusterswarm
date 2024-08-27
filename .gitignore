@@ -1,0 +1,41 @@
+# Arquivos e diretórios do Vagrant
+.vagrant/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do Docker (se houver arquivos locais que não devem ser versionados)
+docker-compose.override.yml
+
+# Diretórios e arquivos temporários do Python (se houver código Python no projeto)
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos e diretórios gerados por builds ou outras ferramentas
+build/
+dist/
+*.egg-info/
+
+# Arquivos de configuração específicos de IDEs e editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de ambiente e configuração específicos
+.env
+*.env
+
+# Arquivos gerados pela execução de Vagrant (se houver algum)
+*.vagrant
