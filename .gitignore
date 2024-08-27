@@ -1,5 +1,5 @@
 # Arquivos e diretórios do Vagrant
-.vagrant/
+.vagrant
 
 # Arquivos de log
 *.log
